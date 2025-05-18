@@ -1,17 +1,48 @@
-<html
-  style="font-size: 10px; font-family: Roboto, Ariel, sans-serif"
-  ;
-  lang="en"
->
+<html lang="en">
   <head>
+    <style>
+      #sidebar {
+        width: 30%;
+        background-color: blue;
+        height: 100vh;
+      }
+      #mainbar {
+        width: 70%;
+        background-color: rgb(230, 25, 25);
+        height: 100vh;
+      }
+
+      .main-layout-container {
+        display: flex;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" href="Images\Favicon.png" type="image/x-icon" />
-    //Favicon not working
     <title>Youtube</title>
+    <link rel="shortcut icon" href="Images\Favicon.png" type="image/x-icon" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <div class="main-layout-container">
+      <section id="sidebar">
+
+
+
+      </section>
+      <section id="mainbar">
+        <section class="top-bar">
+          <section class="search-bar">
+            <section>
+              <section class="text-search"></section>
+              <section class="search-icon"></section>
+            </section>
+            <section class="mic-icon"></section>
+          </section>
+          <section class="top-cornerbar"></section>
+        </section>
+        <section class="suggestions-bar"></section>
+        <section class="video-bar"></section>
+      </section>
+    </div>
   </body>
 </html>
