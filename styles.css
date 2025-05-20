@@ -1,3 +1,4 @@
+
 *{
     font:10px;
     font-family: Roboto,Arial, sans-serif;
@@ -5,4 +6,37 @@
 .div1 {
    
  float:left
+}
+.hamburger-menu {
+display:flex; 
+flex-direction: column;
+justify-content: space-between;
+width: 10%;
+color: azure;
+;
+}
+.div1{
+margin-bottom: 8px;
+background-color:rgb(10, 10, 10);
+height: 3px;
+
+}
+.youtube-head{
+    align-items: flex-end;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    vertical-align: top;
+    padding-bottom: 10px;
+    
+}
+img{
+    width: 30px; 
+    height: 30px;
+}
+.search-bar{
+display: flex;
+flex-direction: column;
 }
